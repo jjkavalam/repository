@@ -17,8 +17,8 @@ class Graph {
 
 Graph::Graph ( int V ) {
     
-    Graph::V = V;
-    Graph::adj = new list<int>[V]; 
+    this->V = V;
+    adj = new list<int>[V]; 
 } 
 
 void Graph::add_edge ( int u , int v ) {
@@ -27,9 +27,14 @@ void Graph::add_edge ( int u , int v ) {
     
 }
 
+void Graph::bfs ( int s ) {
+    
+    
+}
+
 int main () {
 
-    Graph ( 10 );
+    Graph test = Graph ( 10 );
 }
         
     
